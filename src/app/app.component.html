@@ -1,0 +1,29 @@
+<div class="container">
+    <div class="header">
+        <div class="headerText">ISBN Validatior</div>
+    </div>
+    <div class="content">
+
+        <div class="row"></div>
+        <div class="row displayInline">
+            <div class="displayInline margin10">ISBN:</div> 
+            <div class="displayInline margin10">
+                <input class="roundedInput" type="text" [(ngModel)]="isbnValue">
+            </div>
+        </div>
+        <div class="row">
+         
+            <div class="margin10">
+                <input class="roundedButton" type="button" value="Validate" (click)="validate()" [disabled]="!isbnValue"
+                [title]="isbnValue? 'Click to Validate': 'Please Enter ISBN'">
+
+                <input class="roundedButton" type="button" value="Generate New ISBN" (click)="generateNewISBN()"
+                [disabled]="!isbnValue" >
+            </div>
+
+
+        </div>
+    </div>
+    
+</div>
+

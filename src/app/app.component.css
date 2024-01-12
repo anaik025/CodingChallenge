@@ -1,0 +1,47 @@
+body {
+    font-family: sans-serif;
+}
+
+.displayInline {
+    display: inline-block;
+}
+
+.margin10 {
+    margin: 10px 10px 10px 10px;
+}
+
+.header {
+    border: 1px solid #2e2e2e2e;
+    height: 2rem;
+    width: 100%;
+    text-align: center;  
+    background-color: aliceblue;  
+}
+
+.content {
+    border: 1px solid #2e2e2e2e;
+}
+
+.headerText  {
+    font-size: 18px;
+    margin-top: 4px;
+}
+
+.row {
+    height: 4rem;
+    text-align: center;
+    width: 100%;
+}
+
+.roundedInput {
+    height: 2rem;
+    width: 20rem;
+    border-radius: .5rem;
+}
+
+.roundedButton {
+    height: 1.7rem;
+    width: auto;
+    border-radius: .5rem;
+    margin: .5rem;
+}
